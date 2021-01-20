@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/nuclear-power.svg</file>
+    </qresource>
+</RCC>
