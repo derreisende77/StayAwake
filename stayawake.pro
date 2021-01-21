@@ -13,3 +13,5 @@ QT += widgets
 CONFIG += static
 CONFIG += ltcg
 CONFIG += c++17
+
+DISTFILES += LICENSE README.md
