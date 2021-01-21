@@ -60,7 +60,7 @@ void Window::createActions()
     connect(aboutAction,&QAction::triggered,this,[this]() {
         aboutAction->setDisabled(true);
         QString text = "StayAwake\n";
-        text += "Version 1.1\n\n";
+        text += "Version 1.2\n\n";
         text += "Written by derreisende77.\n";
         text += "Licensed under GPLv3.\n\n";
         text += "Source code available on GitHub.com";
