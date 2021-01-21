@@ -4,9 +4,12 @@ SOURCES       = main.cpp \
 RESOURCES     = \
     stayawake.qrc
 
+RC_ICONS = appicon.ico
+
+include(singleapplication/singleapplication.pri)
+DEFINES += QAPPLICATION_CLASS=QApplication
+
 QT += widgets
 CONFIG += static
 CONFIG += ltcg
-
-RC_ICONS = appicon.ico
-
+CONFIG += c++17
