@@ -35,5 +35,6 @@ private:
     QIcon appIcon;
 public:
     static constexpr auto APPLICATION_NAME = "StayAwake";
+    static constexpr auto APPLICATION_VERSION = "1.3";
 };
 #endif

@@ -60,9 +60,9 @@ void Window::createActions()
     connect(aboutAction,&QAction::triggered,this,[this]() {
         aboutAction->setDisabled(true);
         QString text = "StayAwake\n";
-        text += "Version 1.2\n\n";
+        text += "Version " + QString(Window::APPLICATION_VERSION) + "\n\n";
         text += "Written by derreisende77.\n";
-        text += "Licensed under GPLv3.\n\n";
+        text += "Licensed under GPLv3.\n";
         text += "Source code available on GitHub.com";
         QMessageBox::information(nullptr, Window::APPLICATION_NAME, text);
         aboutAction->setEnabled(true);
